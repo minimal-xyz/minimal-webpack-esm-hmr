@@ -1,5 +1,4 @@
-
-console.log("[lib] loading");
+console.log('[lib] loading');
 
 export var a = 1;
 
