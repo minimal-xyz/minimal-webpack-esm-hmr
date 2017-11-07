@@ -16,6 +16,22 @@ if (module.hot) {
 }
 ```
 
+### For Babel users
+
+HMR breaks in Babel since Babel tranpiled `import` syntax. Need to [add `{modules: false}` in Babel](https://twitter.com/wSokra/status/927790829917429760). For example:
+
+```js
+{
+  test: /\.jsx$/,
+  exclude: /(node_modules)/,
+  loader: "babel-loader",
+  query: {
+    presets: [["env", { modules: false }]],
+    plugins: ["transform-react-jsx"]
+  }
+}
+```
+
 ### Usage
 
 ```bash
