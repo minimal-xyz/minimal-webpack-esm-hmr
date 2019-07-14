@@ -9,7 +9,8 @@
   "author": "jiyinyiyong",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^3.1.11"
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   }
 }

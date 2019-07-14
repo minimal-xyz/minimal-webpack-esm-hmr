@@ -4,6 +4,7 @@ var resolve = require("path").resolve;
 var webpack = require("webpack");
 
 module.exports = {
+  mode: 'development',
   entry: {
     main: "./src/index.js"
   },
